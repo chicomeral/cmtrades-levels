@@ -152,6 +152,11 @@ def hole_qqq():
 if __name__ == "__main__":
     import json
     heute = dt.date.today().isoformat()
+    import os
+    jetzt = dt.datetime.now()
+    if os.environ.get("EVENT") == "schedule" and (jetzt.hour, jetzt.minute) < (7, 30):
+        print("vor 07:30 DE – warte")
+        raise SystemExit
     fertig = ORDNER / f"levels/{heute}.md"
     if fertig.exists() and "⚠️" not in fertig.read_text():
         print("heute schon fertig")

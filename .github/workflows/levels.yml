@@ -1,11 +1,9 @@
 name: Levels
 on:
   schedule:
-    # GitHub startet geplante Läufe oft verspätet (am 05.10. bei chico-levels 7 Std.) → mehrere Versuche, Script überspringt, wenn schon fertig
-    - cron: "17 4 * * 1-5"
-    - cron: "47 4 * * 1-5"
-    - cron: "17 5 * * 1-5"
-    - cron: "47 5 * * 1-5"
+    # Alle 10 Min. von 07:30 bis 08:20 DE (UTC-Zeiten für Sommer- und Winterzeit, das Script prüft die DE-Uhrzeit)
+    - cron: "30,40,50 4,5 * * 1-5"
+    - cron: "0,10,20 5,6 * * 1-5"
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,6 +20,7 @@ jobs:
         env:
           DATABENTO_API_KEY: ${{ secrets.DATABENTO_API_KEY }}
           TZ: Europe/Berlin
+          EVENT: ${{ github.event_name }}
       - run: |
           git config user.name "levels-bot"
           git config user.email "levels-bot@users.noreply.github.com"
