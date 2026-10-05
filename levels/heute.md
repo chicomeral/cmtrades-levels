@@ -26,4 +26,4 @@
 30520,VAL W | Volumen Vorwoche
 ```
 
-Cboe-Stand 2026-10-05 19:34:56
+Cboe-Stand 2026-10-05 19:52:57
