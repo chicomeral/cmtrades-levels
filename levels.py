@@ -158,7 +158,7 @@ if __name__ == "__main__":
         print("vor 07:30 DE – warte")
         raise SystemExit
     fertig = ORDNER / f"levels/{heute}.md"
-    if fertig.exists() and "⚠️" not in fertig.read_text():
+    if os.environ.get("EVENT") == "schedule" and fertig.exists() and "⚠️" not in fertig.read_text():
         print("heute schon fertig")
         raise SystemExit
     df, stand = hole_qqq()
