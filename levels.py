@@ -26,7 +26,7 @@ def nq_holen():
     key = os.environ.get("DATABENTO_API_KEY") or re.search(r"db-[A-Za-z0-9]+", (ORDNER / ".env").read_text()).group(0)
     c = db.Historical(key)
     ende = c.metadata.get_dataset_range(dataset="GLBX.MDP3")["end"]
-    start = (pd.Timestamp.now(tz="UTC") - pd.Timedelta(days=12)).strftime("%Y-%m-%d")
+    start = (pd.Timestamp.now(tz="UTC") - pd.Timedelta(days=45)).strftime("%Y-%m-%d")
     df = c.timeseries.get_range(dataset="GLBX.MDP3", symbols=["NQ.v.0"], stype_in="continuous",
                                 schema="ohlcv-1m", start=start, end=ende).to_df()
     df["de"] = df.index.tz_convert("Europe/Berlin")
@@ -129,8 +129,15 @@ def vol_block(fut, heute):
         z += [(w, f"{int(w)},{k} {kz} | Volumen {txt}") for k, w in prof.items() if k != "HVN"]
         z += [(w, f"{int(w)},HVN {kz} | Volumen {txt}") for w in prof["HVN"]
               if min(abs(w - prof[k]) for k in ("VAH", "POC", "VAL")) > 10]  # HVN direkt an VAH/POC/VAL weglassen
+    # Chico 06.10.: Value Area Vormonat (VAH/POC/VAL M, ohne HVN)
+    m_bis = heute.replace(day=1) - dt.timedelta(days=1)
+    m_von = m_bis.replace(day=1)
+    mfut = fut[(fut.tag >= m_von) & (fut.tag <= m_bis)]
+    if len(mfut) > 1000:
+        monat = profil(mfut)
+        z += [(w, f"{int(w)},{k} M | Volumen Vormonat") for k, w in monat.items() if k != "HVN"]
     z.sort(key=lambda a: -a[0])
-    return "\n".join(a[1] for a in z), f"Vortag {vt:%d.%m.} · Vorwoche {vw_von:%d.%m.}–{vw_bis:%d.%m.}"
+    return "\n".join(a[1] for a in z), f"Vortag {vt:%d.%m.} · Vorwoche {vw_von:%d.%m.}–{vw_bis:%d.%m.} · Vormonat {m_von:%m.%Y}"
 
 
 def qqq_schluss():

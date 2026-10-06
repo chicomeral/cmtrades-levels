@@ -13,7 +13,7 @@
 30248,P↓ -Support | 1,8k - 32,9k (außerhalb Range)
 ```
 
-## Volumen-Levels NQ (Vortag 05.10. · Vorwoche 28.09.–02.10.)
+## Volumen-Levels NQ (Vortag 05.10. · Vorwoche 28.09.–02.10. · Vormonat 09.2026)
 ```
 31345,VAH T | Volumen Vortag
 31320,HVN T | Volumen Vortag
@@ -25,8 +25,11 @@
 30700,HVN W | Volumen Vorwoche
 30680,HVN W | Volumen Vorwoche
 30630,POC W | Volumen Vorwoche
+30615,VAH M | Volumen Vormonat
 30575,HVN W | Volumen Vorwoche
 30520,VAL W | Volumen Vorwoche
+29450,POC M | Volumen Vormonat
+28835,VAL M | Volumen Vormonat
 ```
 
-Cboe-Stand 2026-10-06 13:55:29
+Cboe-Stand 2026-10-06 13:58:29
