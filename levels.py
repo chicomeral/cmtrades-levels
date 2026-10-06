@@ -95,6 +95,23 @@ def oi_block(kette, qqq_kurs, fut, heute):
         stark = " (strong)" if any(x in st_txt for x in ("stärkster Call", "stärkster Put")) else ""
         preis = round(st * faktor * 4) / 4
         zeilen.append((preis, f"{int(round(preis))},{label} -{rolle} | {kfmt(c)} - {kfmt(pu)}{stark}"))
+    # Chico 06.10.: zusätzlich die 2 stärksten Levels ÜBER und UNTER der Vortags-Range (bis 3 % Abstand)
+    alle = kette[kette.verfall == verfall].pivot_table(index="strike", columns="typ", values="open_interest", aggfunc="sum").fillna(0)
+    for c in ("C", "P"):
+        if c not in alle:
+            alle[c] = 0
+    alle["summe"] = alle.C + alle.P
+    lo_s, hi_s = vs.low.min() / faktor, vs.high.max() / faktor
+    for seite, maske, pf in (("über", (alle.index > hi_s) & (alle.index <= hi_s * 1.03), "↑"),
+                             ("unter", (alle.index < lo_s) & (alle.index >= lo_s * 0.97), "↓")):
+        for st in alle[maske].summe.nlargest(2).index:
+            kand = alle[maske]
+            c, pu = kand.loc[st, "C"], kand.loc[st, "P"]
+            dp = min(c, pu) >= 0.5 * max(c, pu)
+            lab = "DP" if dp else ("C" if c >= pu else "P")
+            rolle = "Doppelzone" if dp else ("Wall" if lab == "C" else "Support")
+            preis = round(st * faktor * 4) / 4
+            zeilen.append((preis, f"{int(round(preis))},{lab}{pf} -{rolle} | {kfmt(c)} - {kfmt(pu)} (außerhalb Range)"))
     zeilen.sort(key=lambda z: -z[0])
     info = f"Verfall {verfall.date():%d.%m.} · Faktor {faktor:.3f}"
     return "\n".join(z[1] for z in zeilen), info

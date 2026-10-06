@@ -2,11 +2,15 @@
 
 ## OI-Levels NQ (Verfall 09.10. · Faktor 41.435)
 ```
+32112,C↑ -Wall | 6,3k - 4 (außerhalb Range)
+31491,C↑ -Wall | 11,7k - 935 (außerhalb Range)
 31242,C1 -Wall | 21,2k - 3,4k (strong)
 31160,P3 -Support | 4,6k - 5,3k
 31076,DP1 -Doppelzone | 9,5k - 8,6k (strong)
 31035,P2 -Support | 4,5k - 5,8k
 30994,C3 -Wall | 6,6k - 2,6k
+30662,P↓ -Support | 2,8k - 7,5k (außerhalb Range)
+30248,P↓ -Support | 1,8k - 32,9k (außerhalb Range)
 ```
 
 ## Volumen-Levels NQ (Vortag 05.10. · Vorwoche 28.09.–02.10.)
@@ -25,4 +29,4 @@
 30520,VAL W | Volumen Vorwoche
 ```
 
-Cboe-Stand 2026-10-06 11:22:00
+Cboe-Stand 2026-10-06 13:55:29
