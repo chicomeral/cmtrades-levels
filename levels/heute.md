@@ -1,14 +1,12 @@
 # Levels 2026-10-06
 
-⚠️ OI unverändert seit 2026-10-05 – Cboe hat evtl. noch nicht aktualisiert
-
 ## OI-Levels NQ (Verfall 09.10. · Faktor 41.435)
 ```
-31242,C1 -Wall | 21,1k - 466 (strong)
-31160,P2 -Support | 4,6k - 3,6k
-31076,C2 -Wall | 10,0k - 3,5k
-31035,P1 -Support | 4,5k - 7,2k (strong)
-30994,C3 -Wall | 6,7k - 1,5k
+31242,C1 -Wall | 21,2k - 3,4k (strong)
+31160,P3 -Support | 4,6k - 5,3k
+31076,DP1 -Doppelzone | 9,5k - 8,6k (strong)
+31035,P2 -Support | 4,5k - 5,8k
+30994,C3 -Wall | 6,6k - 2,6k
 ```
 
 ## Volumen-Levels NQ (Vortag 05.10. · Vorwoche 28.09.–02.10.)
@@ -27,4 +25,4 @@
 30520,VAL W | Volumen Vorwoche
 ```
 
-Cboe-Stand 2026-10-06 03:55:36
+Cboe-Stand 2026-10-06 11:22:00
