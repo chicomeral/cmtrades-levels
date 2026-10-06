@@ -148,6 +148,8 @@ def vol_block(fut, heute):
     if len(mfut) > 1000:
         monat = profil(mfut)
         z += [(w, f"{int(w)},{k} M | Volumen Vormonat") for k, w in monat.items() if k != "HVN"]
+        z += [(w, f"{int(w)},HVN M | Volumen Vormonat") for w in monat["HVN"]
+              if min(abs(w - monat[k]) for k in ("VAH", "POC", "VAL")) > 10]
     z.sort(key=lambda a: -a[0])
     return "\n".join(a[1] for a in z), f"Vortag {vt:%d.%m.} · Vorwoche {vw_von:%d.%m.}–{vw_bis:%d.%m.} · Vormonat {m_von:%m.%Y}"
 
