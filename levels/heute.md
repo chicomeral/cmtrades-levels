@@ -1,36 +1,36 @@
-# Levels 2026-10-12
+# Levels 2026-10-13
 
-## OI-Levels NQ (Verfall 16.10. · Faktor 41.414)
+## OI-Levels NQ (Verfall 16.10. · Faktor 41.392)
 ```
-32096,C↑ -Wall | 27,5k - 6 (außerhalb Range)
-31889,C↑ -Wall | 46,8k - 618 (außerhalb Range)
-31620,EM↑ -Expected Move | ±508 P bis 16.10.
-31474,C↑ -Wall | 66,6k - 3,6k (außerhalb Range)
-31268,C↑ -Wall | 21,4k - 8,3k (außerhalb Range)
-31185,DP2 -Doppelzone | 3,0k - 3,2k
-31143,DP1 -Doppelzone | 5,9k - 3,5k
-31060,C1 -Wall | 38,6k - 10,1k (strong)
-30646,DP↓ -Doppelzone | 25,3k - 29,7k (außerhalb Range)
-30606,EM↓ -Expected Move | ±508 P bis 16.10.
-30232,DP↓ -Doppelzone | 16,8k - 25,6k (außerhalb Range)
-30025,P↓ -Support | 9,7k - 25,2k (außerhalb Range)
-29818,DP↓ -Doppelzone | 18,9k - 19,1k (außerhalb Range)
+32286,C↑ -Wall | 19,7k - 1,2k (außerhalb Range)
+32078,C↑ -Wall | 27,7k - 1 (außerhalb Range)
+31872,C↑ -Wall | 40,9k - 75 (außerhalb Range)
+31458,C↑ -Wall | 67,9k - 3,9k (außerhalb Range)
+31321,EM↑ -Expected Move | ±441 P bis 16.10.
+31250,C2 -Wall | 24,1k - 8,0k
+31044,C1 -Wall | 35,8k - 9,4k (strong)
+30878,DP1 -Doppelzone | 7,7k - 14,0k (strong)
+30630,DP↓ -Doppelzone | 24,8k - 34,2k (außerhalb Range)
+30438,EM↓ -Expected Move | ±441 P bis 16.10.
+30216,DP↓ -Doppelzone | 16,8k - 27,8k (außerhalb Range)
+30009,P↓ -Support | 9,7k - 25,7k (außerhalb Range)
+29802,DP↓ -Doppelzone | 18,8k - 18,7k (außerhalb Range)
 ```
 
-## Volumen-Levels NQ (Vortag 09.10. · Vorwoche 05.10.–09.10. · Vormonat 09.2026)
+## Volumen-Levels NQ (Vortag 12.10. · Vorwoche 05.10.–09.10. · Vormonat 09.2026)
 ```
 31520,HVN W | Volumen Vorwoche
 31410,VAH W | Volumen Vorwoche
 31355,HVN W | Volumen Vorwoche
 31340,HVN W | Volumen Vorwoche
 31240,POC W | Volumen Vorwoche
-31130,VAH T | Volumen Vortag
-31095,POC T | Volumen Vortag
 31090,HVN W | Volumen Vorwoche
-31035,VAL T | Volumen Vortag
 31025,HVN W | Volumen Vorwoche
 31005,VAL W | Volumen Vorwoche
+30960,VAH T | Volumen Vortag
 30910,HVN M | Volumen Vormonat
+30890,POC T | Volumen Vortag
+30850,VAL T | Volumen Vortag
 30835,HVN M | Volumen Vormonat
 30800,HVN M | Volumen Vormonat
 30765,HVN M | Volumen Vormonat
@@ -50,4 +50,4 @@
 28835,VAL M | Volumen Vormonat
 ```
 
-Cboe-Stand 2026-10-12 12:16:22
+Cboe-Stand 2026-10-13 12:00:32
