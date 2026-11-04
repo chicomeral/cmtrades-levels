@@ -1,25 +1,23 @@
-# Levels 2026-11-03
+# Levels 2026-11-04
 
-## OI-Levels NQ (Verfall 06.11. · Faktor 41.441)
+## OI-Levels NQ (Verfall 06.11. · Faktor 41.314)
 ```
-29630,DP↑ -Doppelzone | 20,8k - 10,6k (außerhalb Range)
-29547,P↑ -Support | 8,7k - 53,6k (außerhalb Range)
-29423,DP↑ -Doppelzone | 12,5k - 20,2k (außerhalb Range)
-29156,EM↑ -Expected Move | ±931 P bis 06.11.
-29008,DP↑ -Doppelzone | 14,9k - 21,3k (außerhalb Range)
-28801,C1 -Wall | 4,9k - 8,5k (strong)
-28718,P2 -Support | 3,9k - 20,5k
-28636,P3 -Support | 582 - 17,5k
-28304,C3 -Wall | 3,5k - 2,0k
-28180,P1 -Support | 473 - 36,0k (strong)
-28014,P↓ -Support | 78 - 9,1k (außerhalb Range)
-27972,P↓ -Support | 474 - 44,8k (außerhalb Range)
-27765,P↓ -Support | 147 - 9,9k (außerhalb Range)
-27351,P↓ -Support | 135 - 14,9k (außerhalb Range)
-27294,EM↓ -Expected Move | ±931 P bis 06.11.
+29539,C↑ -Wall | 22,9k - 10,6k (außerhalb Range)
+29457,P↑ -Support | 10,8k - 53,6k (außerhalb Range)
+29333,DP↑ -Doppelzone | 13,1k - 20,2k (außerhalb Range)
+28920,DP↑ -Doppelzone | 18,3k - 19,8k (außerhalb Range)
+28341,C3 -Wall | 891 - 4,3k
+28300,P2 -Support | 3,5k - 9,3k (strong)
+28217,C2 -Wall | 3,3k - 2,5k
+28176,P3 -Support | 393 - 9,2k
+28093,P1 -Support | 510 - 34,7k (strong)
+27928,P↓ -Support | 127 - 12,3k (außerhalb Range)
+27887,P↓ -Support | 506 - 46,2k (außerhalb Range)
+27598,P↓ -Support | 0 - 11,7k (außerhalb Range)
+27267,P↓ -Support | 333 - 14,5k (außerhalb Range)
 ```
 
-## Volumen-Levels NQ (Vortag 02.11. · Vorwoche 26.10.–30.10. · Vormonat 10.2026)
+## Volumen-Levels NQ (Vortag 03.11. · Vorwoche 26.10.–30.10. · Vormonat 10.2026)
 ```
 31520,HVN M | Volumen Vormonat
 31355,HVN M | Volumen Vormonat
@@ -61,16 +59,11 @@
 29255,HVN M | Volumen Vormonat
 29140,VAL W | Volumen Vorwoche
 29130,HVN M | Volumen Vormonat
-28885,VAH T | Volumen Vortag
 28780,HVN W | Volumen Vorwoche
-28705,POC T | Volumen Vortag
-28665,HVN T | Volumen Vortag
-28570,HVN T | Volumen Vortag
-28395,VAL T | Volumen Vortag
-28320,HVN T | Volumen Vortag
-28270,HVN T | Volumen Vortag
+28380,VAH T | Volumen Vortag
+28315,POC T | Volumen Vortag
+28290,VAL T | Volumen Vortag
 28245,VAL M | Volumen Vormonat
-28140,HVN T | Volumen Vortag
 ```
 
-Cboe-Stand 2026-11-03 10:25:16
+Cboe-Stand 2026-11-04 12:18:28
