@@ -1,22 +1,21 @@
-# Levels 2026-11-12
+# Levels 2026-11-13
 
-## OI-Levels NQ (Verfall 13.11. · Faktor 41.227)
+## OI-Levels NQ (Verfall 13.11. · Faktor 41.316)
 ```
-29601,C↑ -Wall | 7,2k - 28 (außerhalb Range)
-29272,C↑ -Wall | 16,1k - 1,6k (außerhalb Range)
-28983,C↑ -Wall | 11,0k - 157 (außerhalb Range)
-28859,C↑ -Wall | 14,4k - 3,0k (außerhalb Range)
-28694,C1 -Wall | 10,8k - 613 (strong)
-28653,DP1 -Doppelzone | 9,7k - 4,9k
-28447,DP2 -Doppelzone | 9,0k - 12,2k
-28241,P1 -Support | 8,2k - 26,5k (strong)
-28034,DP↓ -Doppelzone | 6,8k - 11,6k (außerhalb Range)
-27828,DP↓ -Doppelzone | 5,6k - 7,7k (außerhalb Range)
-27622,P↓ -Support | 2,0k - 7,7k (außerhalb Range)
-27210,P↓ -Support | 2,1k - 22,7k (außerhalb Range)
+29335,C↑ -Wall | 17,5k - 545 (außerhalb Range)
+28922,C↑ -Wall | 26,5k - 3,4k (außerhalb Range)
+28756,C↑ -Wall | 14,3k - 842 (außerhalb Range)
+28715,C↑ -Wall | 14,7k - 4,9k (außerhalb Range)
+28508,DP1 -Doppelzone | 10,0k - 12,6k (strong)
+28302,P1 -Support | 8,2k - 33,0k (strong)
+28095,P2 -Support | 5,7k - 16,2k
+27888,DP↓ -Doppelzone | 5,6k - 10,1k (außerhalb Range)
+27682,P↓ -Support | 2,2k - 11,4k (außerhalb Range)
+27476,P↓ -Support | 2,3k - 8,9k (außerhalb Range)
+27269,P↓ -Support | 2,3k - 18,4k (außerhalb Range)
 ```
 
-## Volumen-Levels NQ (Vortag 11.11. · Vorwoche 02.11.–06.11. · Vormonat 10.2026)
+## Volumen-Levels NQ (Vortag 12.11. · Vorwoche 02.11.–06.11. · Vormonat 10.2026)
 ```
 31520,HVN M | Volumen Vormonat
 31355,HVN M | Volumen Vormonat
@@ -50,21 +49,21 @@
 28755,HVN W | Volumen Vorwoche
 28730,HVN W | Volumen Vorwoche
 28700,HVN W | Volumen Vorwoche
-28645,HVN T | Volumen Vortag
 28635,HVN W | Volumen Vorwoche
-28595,VAH T | Volumen Vortag
 28570,HVN W | Volumen Vorwoche
-28560,HVN T | Volumen Vortag
-28525,HVN T | Volumen Vortag
-28475,POC T | Volumen Vortag
+28515,VAH T | Volumen Vortag
+28490,HVN T | Volumen Vortag
 28410,HVN W | Volumen Vorwoche
+28375,HVN T | Volumen Vortag
 28370,HVN W | Volumen Vorwoche
-28365,HVN T | Volumen Vortag
+28350,HVN T | Volumen Vortag
 28320,POC W | Volumen Vorwoche
-28300,VAL T | Volumen Vortag
+28315,HVN T | Volumen Vortag
+28290,POC T | Volumen Vortag
 28270,HVN W | Volumen Vorwoche
 28245,VAL M | Volumen Vormonat
 28230,HVN W | Volumen Vorwoche
+28175,VAL T | Volumen Vortag
 27285,HVN W | Volumen Vorwoche
 27265,HVN W | Volumen Vorwoche
 27250,VAL W | Volumen Vorwoche
@@ -78,4 +77,4 @@
 26895,HVN W | Volumen Vorwoche
 ```
 
-Cboe-Stand 2026-11-12 12:38:16
+Cboe-Stand 2026-11-13 12:15:17
