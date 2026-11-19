@@ -1,24 +1,23 @@
-# Levels 2026-11-18
+# Levels 2026-11-19
 
-## OI-Levels NQ (Verfall 20.11. · Faktor 41.243)
+## OI-Levels NQ (Verfall 20.11. · Faktor 41.228)
 ```
-28458,DP↑ -Doppelzone | 21,4k - 33,1k (außerhalb Range)
-28045,P↑ -Support | 42,6k - 87,7k (außerhalb Range)
-27924,EM↑ -Expected Move | ±830 P bis 20.11.
-27839,DP↑ -Doppelzone | 16,2k - 27,1k (außerhalb Range)
-27633,DP↑ -Doppelzone | 22,6k - 30,8k (außerhalb Range)
-27426,C1 -Wall | 14,8k - 9,6k (strong)
-27220,P2 -Support | 8,3k - 23,0k
-27014,P3 -Support | 6,2k - 19,9k
-26808,P1 -Support | 9,3k - 39,0k (strong)
-26602,P↓ -Support | 1,3k - 13,3k (außerhalb Range)
-26396,P↓ -Support | 6,4k - 44,7k (außerhalb Range)
-26265,EM↓ -Expected Move | ±830 P bis 20.11.
-25983,P↓ -Support | 278 - 23,9k (außerhalb Range)
-25777,P↓ -Support | 252 - 26,8k (außerhalb Range)
+28448,DP↑ -Doppelzone | 20,8k - 32,7k (außerhalb Range)
+28242,DP↑ -Doppelzone | 23,3k - 22,3k (außerhalb Range)
+28035,DP↑ -Doppelzone | 43,0k - 76,8k (außerhalb Range)
+27950,EM↑ -Expected Move | ±759 P bis 20.11.
+27623,DP↑ -Doppelzone | 26,8k - 28,1k (außerhalb Range)
+27417,DP1 -Doppelzone | 16,7k - 8,5k (strong)
+27211,DP2 -Doppelzone | 12,1k - 21,5k (strong)
+27004,P2 -Support | 6,1k - 21,1k
+26798,P↓ -Support | 9,2k - 39,7k (außerhalb Range)
+26592,P↓ -Support | 1,3k - 16,9k (außerhalb Range)
+26431,EM↓ -Expected Move | ±759 P bis 20.11.
+26386,P↓ -Support | 6,4k - 48,4k (außerhalb Range)
+25974,P↓ -Support | 279 - 23,0k (außerhalb Range)
 ```
 
-## Volumen-Levels NQ (Vortag 17.11. · Vorwoche 09.11.–13.11. · Vormonat 10.2026)
+## Volumen-Levels NQ (Vortag 18.11. · Vorwoche 09.11.–13.11. · Vormonat 10.2026)
 ```
 31520,HVN M | Volumen Vormonat
 31355,HVN M | Volumen Vormonat
@@ -65,13 +64,11 @@
 27795,HVN W | Volumen Vorwoche
 27760,HVN W | Volumen Vorwoche
 27725,HVN W | Volumen Vorwoche
-27310,VAH T | Volumen Vortag
-27260,HVN T | Volumen Vortag
-26990,POC T | Volumen Vortag
-26965,HVN T | Volumen Vortag
-26930,VAL T | Volumen Vortag
-26910,HVN T | Volumen Vortag
-26890,HVN T | Volumen Vortag
+27280,VAH T | Volumen Vortag
+27195,HVN T | Volumen Vortag
+27140,POC T | Volumen Vortag
+27095,VAL T | Volumen Vortag
+27060,HVN T | Volumen Vortag
 ```
 
-Cboe-Stand 2026-11-18 13:19:05
+Cboe-Stand 2026-11-19 13:37:28
